@@ -3,7 +3,7 @@
 |**Regla de la cadena**:  $(f\circ g)'(x) = f'(g(x)).g'(x)$|
 |**Puntos Criticos**: 1. derivamos $f(x)$ 2. hallamos las raices de $f'(x)$|
 |**Extremos Relativos**: sea f una funcion definida en el intervalor $[a;b]$ y sea $x_{0}$ un PC de f(x) con $x_{0} \in (a;b)$. si la f(x) al pasar por $x_{0}$ pasa de (-) a (+) podemos asegurar que existe un minimo relativo. si pasa de (+) a (-) podemos segurar que existe un maximo relativo.|
-|**Extremos Absolutos**: para un invervalo $[a;b]$ 1. hallamos los PC de la funcion $f(x)$. 2. Comparamos los valores de los $PC \ \{ a,b \}$ 3. de la comparacion sacamos los extemos absolutos (Max absoluto y Min absoluto).
+|**Extremos Absolutos**: para un invervalo $[a;b]$ 1. hallamos los PC de la funcion $f(x)$. 2. Comparamos los valores de los $PC,a,b$ 3. de la comparacion sacamos los extemos absolutos (Max absoluto y Min absoluto).
 |**Funciones Crecientes y Decrecientes**: 1. hallamos los PC de f(x). 2.definimos los intervalos entre los PC (sin incluirlos). 3. evalamos el  $Sig(f'(x))\  con \ x \in Intevalo$ si es positivo la funcion **crece**, si es negativo la funcion **decrece**|
 |**Teorema de Rolle**: si una funcion $f(x)$ es continua en un intervalo $[a;b]$, es derivable en $(a;b)$ y $f(a) = f(b)$ entonces, Existe un $c \in (a;b)\ ,f'(c)=0$
 |**Teorema del Valor Intermedio**: sea f una funcion continua en $[a;b]$ derivable en $(a;b)$ entonces $\exists c \in(a;b):f'(c)=\frac{f(b)-f(a)}{b-a} = m$|
