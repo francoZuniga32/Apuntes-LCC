@@ -1,4 +1,7 @@
 # Introduccion
+
+[Inicio](../README.md)
+
 La programación orientada a objetos (POO) es un paradigma de programación que se basa en el concepto de "objetos". Cada objeto es una instancia de una clase, y las clases son plantillas para crear objetos.
 
 En la POO, los objetos tienen propiedades (llamadas atributos o variables de instancia) y comportamientos (llamados métodos). Por ejemplo, considera un objeto "Coche". Podría tener propiedades como "marca", "modelo", "color", etc., y comportamientos como "arrancar", "detenerse", "acelerar", etc.

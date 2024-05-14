@@ -1,4 +1,6 @@
 # Modelos
+[Inicio](../README.md)
+
 Necesitamos una forma de modelar las interacciones entre objetos que no sea con dibujitos, para esto usaremos UML.
 
 UML (Unified Modeling Language) es un lenguaje estándar de modelado visual utilizado en ingeniería de software para representar sistemas complejos. Proporciona una forma de visualizar la estructura y el comportamiento de un sistema a través de diferentes tipos de diagramas, como diagramas de clases, diagramas de secuencia, diagramas de actividades, entre otros. UML es ampliamente utilizado en el desarrollo de software para comunicar ideas, diseñar sistemas y documentar el proceso de desarrollo.
@@ -13,11 +15,3 @@ Este modelo indica los objetos, sus atributos, sus mensajes, el nivel de acceso 
    3. **Composición:** El objeto A conoce el objeto B, consiste (se construye con B) en B y gestiona el ciclo vital de B. La clase A depende de B. Ej: Composición en UML. La universidad consta de departamentos.
    4. **Agregación:** La clase A define métodos declarados en la interfaz B. Los objetos A pueden tratarse como B. La clase A depende de B
 4. **Cardinalidad:** Define con cuantos objetos del otro grupo se pueden relacionar. tenemos uno-uno, uno-muchos, muchos-muchos.
-
-# Modelo Dinamico
-Los diagramas de secuencia son una parte importante del modelado dinámico en UML (Unified Modeling Language). Estos diagramas muestran cómo los objetos interactúan en una secuencia de eventos a lo largo del tiempo.
-
-En un diagrama de secuencia, se representan objetos como cajas rectangulares y se muestran líneas de vida que indican la existencia y duración de cada objeto durante la secuencia de eventos. Las líneas de vida se colocan verticalmente y las interacciones entre objetos se representan mediante flechas que indican los mensajes enviados entre ellos.
-
-Los diagramas de secuencia ayudan a comprender el flujo de control y la comunicación entre objetos en un sistema. Son especialmente útiles para visualizar el comportamiento dinámico de un sistema, mostrando cómo los objetos colaboran entre sí para lograr una tarea específica o para responder a eventos externos.
-
