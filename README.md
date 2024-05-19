@@ -11,17 +11,24 @@ Podra visualizarlo clonando este repositorio en su computadora e instalando los 
 🥈Cursada aprobada ,Final Pendiente
 🥉En Curso o En Recursado
 
+🛑No tiene un apunte
+🪖Apuntes en proceso
+
 ## Segundo Año
 
-- [Programacion Orientada a Objetos](Segundo/POO/README.md) 🥈
-- [Estructura de Datos]() 🥇
-- [Teoria de la Computacion 1]() 🥇
-- [Calculo Diferencia e Integral]() 🥉
-- [Ingles Tecnico I]() 🥇
+### Primer Cuatrimestre
+- [Programacion Orientada a Objetos](Segundo/POO/README.md) 🥈🪖
+- [Estructura de Datos]() 🥇🛑
+- [Teoria de la Computacion 1]() 🥇🛑
+- [Calculo Diferencia e Integral](Segundo/Calculo/README.md) 🥉🪖
+- [Ingles Tecnico I]() 🥇🛑
+
+### Segundo Cuatrimestre
 - [Teoria de la Computacion II]() 🥉
 - [Programacion Concurrente]() 🥈
 - [Metodos Computacionales para el Calculo]() 🥉
-- [Ingles Tenico II]() 🥇
-- [Ingenieria de Requerimientos]() 🥈
+- [Ingles Tenico II]() 🥇🛑
+- [Ingenieria de Requerimientos]() 🥈🛑
+- [Arquitectura y Organizacion de Computadoras]()🥉
 
 ## Tercer Año

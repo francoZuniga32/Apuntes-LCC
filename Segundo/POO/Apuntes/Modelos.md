@@ -12,6 +12,6 @@ Este modelo indica los objetos, sus atributos, sus mensajes, el nivel de acceso 
 3. **Relaciones:** los objetos se realacionan entre si y de esta manera se comunican. Existen diferentes tipos de relaciones entre objetos:
    1. **Dependencia**: La clase A puede verse afectada por cambios en la clase B. Ej: Dependencia en UML. El profesor depende de los materiales del curso
    2. **Asociacion**: El objeto A conoce el objeto B. La clase A depende de B. Ej: Asociación en UML. El profesor se comunica con los estudiantes.
-   3. **Composición:** El objeto A conoce el objeto B, consiste (se construye con B) en B y gestiona el ciclo vital de B. La clase A depende de B. Ej: Composición en UML. La universidad consta de departamentos.
+   3. **Composición:** 
    4. **Agregación:** La clase A define métodos declarados en la interfaz B. Los objetos A pueden tratarse como B. La clase A depende de B
 4. **Cardinalidad:** Define con cuantos objetos del otro grupo se pueden relacionar. tenemos uno-uno, uno-muchos, muchos-muchos.
