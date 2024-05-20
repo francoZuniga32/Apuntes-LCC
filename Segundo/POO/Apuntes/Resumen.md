@@ -1,6 +1,6 @@
-# Apuntes para final de Teoria catedra
+# Apuntes para final de Teoría Cátedra
 
-## Introduccion
+## Introducción
 
 - **POO:** La programación orientada a objetos (POO) es un paradigma de programación que se basa en el concepto de "objetos". Cada objeto representa un elemento del "mundo" con sus relaciones y sus atributos.
 
@@ -25,12 +25,12 @@
     - Un único método contiene el código que implementa el mensaje. El mismo código se aplica a todas las instancias de la clase. Es posible acceder y actualizar atributos.
     - `self` y `this` permiten hacer referencia a la instancia actual de la clase.
     - Un objeto que no existe no puede recibir mensajes.
-    - Con parte de la interfaz de un objeto.
+    - Forma parte de la interfaz de un objeto.
 
-- **Responsabilidad:** Las responsabilidades estan realcionadas con las obligaciones de un objeto en terminos de su comportamiento.
-    - conocimiento: sobre sus atributos y asociaciones.
-    - accion: hacer algo por si mismo, iniciar accino en otros objetos, controlar y codignar actividades en otros objetos.
-    - la responsabilidad no es un metodo, pero son implementadas utilizando metodos, que actuen solos o con otros metodos y sobre otros objetos.
+- **Responsabilidad:** Las responsabilidades están relacionadas con las obligaciones de un objeto en términos de su comportamiento.
+    - Conocimiento: Sobre sus atributos y asociaciones.
+    - Acción: Hacer algo por sí mismo, iniciar acción en otros objetos, controlar y coordinar actividades en otros objetos.
+    - La responsabilidad no es un método, pero se implementa utilizando métodos, que actúan solos o con otros métodos y sobre otros objetos.
 
 - **Encapsulamiento:** Sabemos que un objeto tiene que realizar una acción pero no nos importa cómo.
 
@@ -49,38 +49,72 @@
     - Cada parte puede ser representada como un modelo que describe y abstrae los aspectos esenciales del sistema.
     - Los modelos están compuestos por diagramas y documentos que describen cosas.
     - Los modelos enfatizan información estática o dinámica del sistema.
-    - Cada relacion entre clases puede tener: nombre, multiplicidad (cuantas instancias de una clase se puede relacionar), y navegavilidad (direccion de recorrido).
-    - una clase se puede relacionar a si misma.
-    - en la navegavilidad determina quien puede enviar mensajes a la otra clase y a que clases se lo puede enviar.
-    - para modelar la loguica de los mensajes es mediante di diagrama de secuencias.
-    - donde marcamos que pasa cuando a una instancia se le solicita una accino por medio.
-    - tambian se detallan los mensajes en nivel de logico.
+    - Cada relación entre clases puede tener: nombre, multiplicidad (cuántas instancias de una clase se pueden relacionar), y navegabilidad (dirección de recorrido).
+    - Una clase se puede relacionar a sí misma.
+    - En la navegabilidad se determina quién puede enviar mensajes a la otra clase y a qué clases se lo puede enviar.
+    - Para modelar la lógica de los mensajes se usa un diagrama de secuencias.
+    - Donde marcamos qué pasa cuando a una instancia se le solicita una acción por medio.
+    - También se detallan los mensajes a nivel lógico.
 
-- **Arquitectura en tres capas:** es una forma de separar una solucion en tres capas: interfaz de usuario, la logica de aplicacion, y el acceso a los datos
-    - interfaz de usuario: es lo que el usuario vera del sistema y con el que interactura.
-    - logica de aplicacion: objetos del dominio, que cumplen con los requerimientos de la aplicacion.
-    - acceso a datos: mecanismos de almacenamiento persistente. 
+- **Arquitectura en tres capas:** Es una forma de separar una solución en tres capas: interfaz de usuario, la lógica de aplicación, y el acceso a los datos.
+    - Interfaz de usuario: Es lo que el usuario verá del sistema y con el que interactuará.
+    - Lógica de aplicación: Objetos del dominio, que cumplen con los requerimientos de la aplicación.
+    - Acceso a datos: Mecanismos de almacenamiento persistente.
+
+- **Herencia:** Es un mecanismo para poder repetir atributos y métodos en otras clases sin tener que repetir código.
+    - Una clase toma el comportamiento y la estructura interna de otra y agrega su propia conducta.
+    - El comportamiento y datos asociados con la clase hija (subclase) son siempre una extensión de las propiedades asociadas con la clase padre (superclase).
+    - Cuando recibe un mensaje lo busca en la clase que lo recibe, en caso de no encontrarlo lo buscará en la superclase.
+    - Todos los objetos en la mayoría de los lenguajes son subclase de la clase `Object`.
+    - Una clase abstracta es aquella que no puede tener instancias, describe atributos y comportamientos de subclases, tiene operaciones abstractas.
+
+- **Polimorfismo:** Los objetos de distintas clases y de la misma familia entienden los mismos mensajes.
+    - Igual semántica, diferentes implementaciones, un mismo mensaje puede provocar la invocación de métodos diferentes.
+    - **Sobrecarga:** Cambian la cantidad de parámetros en un mismo mensaje.
+    - **Refinamiento:** Hace uso del método heredado pero cambia luego el resultado.
+    - **Reemplazo:** Reemplaza el método heredado. Suele ser usado cuando una clase hereda de una clase abstracta.
+    - **Puro:** No se implementa en las subclases, se usa directamente el método de la clase padre.
+    - Visibilidad: Pública, privada y protected (solo accesible desde subclases).
+
+- **Ligadura:** Es la forma en la que el lenguaje asocia las llamadas a funciones y referencias a variables con las definiciones correspondientes (sus clases).
+    - **Estática:** Ocurre en tiempo de compilación, en caso de que el mensaje no exista en la clase donde se declaró una variable.
+    - **Dinámica:** Ocurre en tiempo de ejecución, por lo que la evaluación de qué tipo de función o método llamar ocurre mientras se ejecuta la aplicación.
+    - La subclase que está relacionada como valor será el tipo dinámico.
+
+- **Herencia y Polimorfismo**
+    - **Tipos Estáticos y Dinámicos:** Los tipos estáticos se definen en el momento de la declaración de una variable y se utilizan para verificar la corrección del código en tiempo de compilación. Los tipos dinámicos se determinan en tiempo de ejecución y pueden diferir del tipo estático. Este concepto es crucial para entender cómo los objetos pueden comportarse de maneras diferentes dependiendo de su instancia real en tiempo de ejecución.
+
+    - **Ligadura Dinámica:** El ligamento dinámico (o binding dinámico) es la asociación de un método con un mensaje en tiempo de ejecución en lugar de en tiempo de compilación. Esto permite que el método correcto sea llamado según el tipo real del objeto, no solo su tipo declarado. Por ejemplo, en Java, si una variable de tipo `Figura` contiene un objeto de tipo `Circulo`, el método `getSuperficie()` de `Circulo` será ejecutado cuando se llame a través de la variable `Figura`.
+
+    - **Polimorfismo:** El polimorfismo permite que una sola interfaz pueda ser utilizada para representar diferentes tipos de objetos. Esto se logra generalmente a través de la herencia y permite que métodos que operan sobre la superclase puedan trabajar con cualquier subclase. Esto facilita la reutilización y extensión del código, ya que los mismos métodos pueden operar sobre una gama amplia de objetos distintos.
+
+
+- **Mecanismos de reutilización:**
+    - **Tipos de herencia:**
+        - **Especialización/Extensión:** Las subclases agregan nuevas funcionalidades sin alterar el comportamiento heredado. La subclase es un subtipo de la superclase, respetando su interfaz y agregando nuevas funcionalidades. Ejemplo: una clase `Ventana` con métodos como mover, cambiar tamaño, y minimizar, y una subclase `VentanaDeTexto` que añade la capacidad de editar texto.
+
+        - **Especificación:** Las superclases tienen métodos abstractos y concretos, proporcionando una interfaz común. Las subclases implementan los métodos abstractos definidos por la superclase. Ejemplo: una clase `Figura` con un método abstracto `dibujar()` y subclases como `Circulo` y `Rectangulo` que implementan `dibujar()`.
+
+        - **Generalización:** Factorización de funcionalidades comunes en una superclase basada en datos y no en comportamiento. Creación de una superclase que factoriza funcionalidades comunes de varias subclases. Ejemplo: clases con una interfaz común basadas en valores de datos.
+
+        - **Limitación:** Reutilización de código donde la subclase es más restrictiva que la superclase, no cumpliendo con el principio de sustitución. Ejemplos problemáticos: `Pila` como subclase de `ColaDoble` o `Set` como subclase de `Lista`.
+
+- **Mecanismos de reuso:**
+    - La herencia puede no siempre ser adecuada, ya que puede llevar una carga innecesaria de métodos y datos en las subclases. A veces, introduce métodos y datos que no son relevantes para las subclases, lo que lleva a una carga innecesaria.
+    - **Colaborador Interno (Delegación):** Se utiliza cuando solo se requiere parte de la funcionalidad de una superclase, proporcionando un control más granular sobre qué métodos y datos reutilizar. Una clase utiliza otra clase para implementar algunas de sus funcionalidades, seleccionando qué partes de la interfaz se utilizan y cuáles se ignoran.
+
+- **Herencia vs colaborador interno:** 
+    - **Herencia:** Relación "Es un" donde un concepto es una instancia especializada de otro. Uso del principio "ES UN", facilitando la reutilización de código y la consistencia de interfaces.
+    - **Colaborador interno:** Relación de uso, donde un concepto utiliza a otro para implementar ciertas funcionalidades. Ofrece más control sobre qué operaciones se aplican a una estructura de datos particular, mejorando la mantenibilidad y eficiencia del código.
+
+- **Herencia Múltiple:**
+    - Ventajas y problemas de la herencia múltiple, como la ambigüedad de nombre y la herencia de ancestros comunes.
+    - Soluciones propuestas en lenguajes que soportan herencia múltiple.
+    - Permite a una clase heredar de múltiples superclases combinando diferentes características y comportamientos.
+    - Determinar cómo manejar características heredadas de un ancestro común, resolviendo si deben tener copias duplicadas o compartidas.
     
-- **Herencia:** es un mecanismo para poder repetir atributos y metodos en otras clases sin tener que repetir codigo.
-    - una clase toma el comportamiento y la estructura interna de otro y agrega su propia conducta.
-    - el comportamiento y datos asociados con la clase hijo (subclase) son siempre una extencion de las propiedades asociadas con la calse padre (superclase).
-    - cuando recibe un mensaje lo busca en la clase que lo recibe, en caso de no encontrarlo lo buscara en la superclase. 
-    - todos los objetos en la mayoria de los lenguajes son subclase de la clase object.
-    - una clase abstracta es aquella que no puede tener instancias, describen atributos y comportamientos de subclases, tiene operaciones abstractas.
-
-- **Polimorfismo:** los objetos de distintas clases y de la mima familia entienden los mismos mensajes.
-    - igual semantica, diferentes implementaciones, un mismo mensaje puede provocar la invocaciones de metodos diferentes.
-    - **Sobrecarga:** cambian la cantidad de parametros en un mismo mensaje.
-    - **Refinamiento:** hace uso del metodo heredado pero cambia luego el resultado.
-    - **Remplazo:**: remplaza el metodo heredado. Suele ser usado cuando una clase hereda de una clase abstracta.
-    - **Puro:** no se implementa en las subclases se usa directamente el metodo del la clase padre.
-    - visiblidad: publica, privada y protected (solo accesible desde subclases).
-
-- **Ligamento:** Algunos lengaues de tipado estatico permiten que asignemos variables de una subclase a un tipo de la clase padre.
-    - a la hora de ejecutar un metodo comprobada que existe en la superclase, antes de ejecutar la de la subclase.
-    - en el caso de declarar una variables con el valor de una super clase sera el tipo estatico.
-    - la subclase que es relacionada como valor sera el tipo dinamico.
-
-
-
-
+- **Excepciones:**
+    - Las excepciones son mecanismos que permiten gestionar errores de ejecución de una forma controlada.
+    - Permiten separar la lógica de manejo de errores del código principal.
+    - Ejemplos comunes incluyen manejo de archivos no encontrados, errores de red, etc.
+    - La estructura básica incluye el lanzamiento de una excepción (`throw`) y su captura (`try-catch`).
