@@ -6,3 +6,4 @@
 - [Herencia y Polimorfismo](Apuntes/Polimorfimos.md)
 - [Final](Apuntes/Final.md)
 - [Interfaz de Usuario](UI.md)
+- [Resumen](Apuntes/Resumen.md)

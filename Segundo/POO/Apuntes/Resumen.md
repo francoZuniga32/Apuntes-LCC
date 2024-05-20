@@ -1,5 +1,7 @@
 # Apuntes para final de Teoría Cátedra
 
+[Inicio](../README.md)
+
 ## Introducción
 
 - **POO:** La programación orientada a objetos (POO) es un paradigma de programación que se basa en el concepto de "objetos". Cada objeto representa un elemento del "mundo" con sus relaciones y sus atributos.
