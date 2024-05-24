@@ -17,7 +17,7 @@ Podra visualizarlo clonando este repositorio en su computadora e instalando los 
 ## Segundo Año
 
 ### Primer Cuatrimestre
-- [Programacion Orientada a Objetos](Segundo/POO/README.md) 🥈🪖
+- [Programacion Orientada a Objetos](Segundo/POO/README.md) 🥇🪖
 - [Estructura de Datos]() 🥇🛑
 - [Teoria de la Computacion 1]() 🥇🛑
 - [Calculo Diferencia e Integral](Segundo/Calculo/README.md) 🥉🪖
