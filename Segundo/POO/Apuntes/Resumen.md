@@ -49,14 +49,20 @@
   - Un sistema de software es usualmente complejo.
   - Es necesario descomponerlo en partes manejables y de complejidad comprensible.
   - Cada parte puede ser representada como un modelo que describe y abstrae los aspectos esenciales del sistema.
-  - Los modelos están compuestos por diagramas y documentos que describen cosas.
   - Los modelos enfatizan información estática o dinámica del sistema.
-  - Cada relación entre clases puede tener: nombre, multiplicidad (cuántas instancias de una clase se pueden relacionar), y navegabilidad (dirección de recorrido).
-  - Una clase se puede relacionar a sí misma.
-  - En la navegabilidad se determina quién puede enviar mensajes a la otra clase y a qué clases se lo puede enviar.
-  - Para modelar la lógica de los mensajes se usa un diagrama de secuencias.
-  - Donde marcamos qué pasa cuando a una instancia se le solicita una acción por medio.
-  - También se detallan los mensajes a nivel lógico.
+  
+  - **Diagrama de Clases**:
+    - Los modelos están compuestos por diagramas y documentos que describen cosas.
+    - Cada relación entre clases puede tener: nombre, multiplicidad (cuántas instancias de una clase se pueden relacionar), y navegabilidad (dirección de recorrido).
+    - Una clase se puede relacionar a sí misma.
+    - En la navegabilidad se determina quién puede enviar mensajes a la otra clase y a qué clases se lo puede enviar.
+  
+  - **Diagrama de Secuencia**:
+    - Para modelar la lógica de los mensajes se usa un diagrama de secuencias.
+    - Donde marcamos qué pasa cuando a una instancia se le solicita una acción por medio.
+    - También se detallan los mensajes a nivel lógico.
+    - Describen como se relaciona con otra clase, que metodos tendra que implementar, que metodos tiene que implementar otra clase
+    - Como se comportara dependiendo de su estado y los datos que le pasen por mensaje, etc´.
 
 - **Arquitectura en tres capas:** Es una forma de separar una solución en tres capas: interfaz de usuario, la lógica de aplicación, y el acceso a los datos.
   - Interfaz de usuario: Es lo que el usuario verá del sistema y con el que interactuará.

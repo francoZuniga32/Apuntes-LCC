@@ -4,6 +4,5 @@
 - [Modelos - Estatico ](Apuntes/Modelos.md)
 - [Modelos - Dinamico ](Apuntes/Dinamicos.md)
 - [Herencia y Polimorfismo](Apuntes/Polimorfimos.md)
-- [Final](Apuntes/Final.md)
 - [Interfaz de Usuario](UI.md)
-- [Resumen](Apuntes/Resumen.md)
+- [Resumen Final](Apuntes/Resumen.md)
