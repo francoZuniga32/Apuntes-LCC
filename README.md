@@ -1,42 +1,33 @@
+## Guía
 
-# Licencutura en Ciencias de la Computacion
+🥳 Cursado ,Final Aprobado
+🥹 Cursada aprobada ,Final Pendiente
+🚀 En Curso o En Recursado
 
-En este repositorio podra encontrar mis apuntes para la LCC. Cada materia cuenta con una seccion donde redirecciona a los diferentes materiales (aputes, practicos, pdfs, etc), ademas de algunos links a repositorios de codigo.
+🛑No tiene un apunte
+🪖Apuntes en proceso
 
-# Guia de visualizacion
+## Guía de visualización
 
-Podra visualizarlo clonando este repositorio en su computadora e instalando los siguientes plugins en su visual studio (editor recomendado).
+Podrá visualizarlo clonando este repositorio en su computadora e instalando los siguientes plugins en su visual studio (editor recomendado).
 - excalidraw
 - markdown all in one
 - markdown emoji
 - emojisense
 
-# Gia de aprobado y desaprobado
+## Licenciatura en Ciencias de la Computación
 
-🥳 Cursado ,Final Aprobado
-🥹 Cursada aprobada ,Final Pendiente
-😵‍💫 En Curso o En Recursado
+En este repositorio podra encontrar mis apuntes para la LCC. Cada materia cuenta con una seccion donde redirecciona a los diferentes materiales (aputes, practicos, pdfs, etc), ademas de algunos links a repositorios de codigo.
 
-🛑No tiene un apunte
-🪖Apuntes en proceso
-
-## Segundo Año
-
-### Primer Cuatrimestre
-
-- [Programacion Orientada a Objetos](Segundo/POO/README.md) 🥳
-- Estructura de Datos 🥳🛑
-- Teoria de la Computacion 1 🥳 🛑
-- [Calculo Diferencia e Integral](Segundo/Calculo/README.md) 😵‍💫 🪖
-- Ingles Tecnico I 🥳 🛑
-
-### Segundo Cuatrimestre
-
-- Teoria de la Computacion II 😵‍💫
-- [Programacion Concurrente](Segundo/Concurrente/README.md) 🥹 🪖
-- Metodos Computacionales para el Calculo
-- Ingles Tenico II 🥳🛑
-- Ingenieria de Requerimientos 🥹 🛑
-- Arquitectura y Organizacion de Computadoras
-
-## Tercer Año
+| Materia                                     | Estado | link                                                      |
+| ------------------------------------------- | ------ | --------------------------------------------------------- |
+| Calculo                                     | 😞     | [Calculo](Segundo/Calculo/README.md)                      |
+| Estructura de Datos                         | 🥳🛑   |                                                           |
+| Programacion Orientada a Objetos            | 🥳     | [POO](Segundo/POO/README.md)                              |
+| Teoria de la Computacion                    | 🥳🛑   |                                                           |
+| Ingles                                      | 🥳🛑   |                                                           |
+| Teoria de la Computacion II                 | 🛑     |                                                           |
+| Programación Concurrente                    | 🥳     | [Concurrente](Segundo/Concurrente/README.md)              |
+| Arquitectura y Organización de computadoras | 🛑     |                                                           |
+| Ingenieria de requerimientos                | 🥳     | [Ingenieria](Segundo/Ingenieria_Requerimientos/README.md) |
+| Laboratorio de programacion                 | 🤓     |                                                           |

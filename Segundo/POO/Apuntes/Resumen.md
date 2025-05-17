@@ -1,6 +1,6 @@
 # Apuntes para final de Teoría Cátedra
 
-[Inicio](../README.md)
+[Inicio](FacultadPublico/Segundo/POO/README.md)
 
 ## Introducción
 

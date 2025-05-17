@@ -1,6 +1,6 @@
 # Apunte II Concurrente
 
-[inicio](../README.md)
+[inicio](FacultadPublico/Segundo/Concurrente/README.md)
 
 - [Apunte II Concurrente](#apunte-ii-concurrente)
   - [Sincronizacion](#sincronizacion)

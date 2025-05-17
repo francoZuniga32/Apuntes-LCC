@@ -1,6 +1,6 @@
 # Diagramas de Secuencia / Modelos Dinámicos
 
-[Inicio](../README.md)
+[Inicio](FacultadPublico/Segundo/POO/README.md)
 
 Los diagramas de secuencia son una parte importante del modelado dinámico en UML (Unified Modeling Language). Estos diagramas muestran cómo los objetos interactúan en una secuencia de eventos a lo largo del tiempo.
 
@@ -12,23 +12,23 @@ Además de esto, nos describen cómo se comportan de forma lógica los métodos 
 
 ## Notaciones Básicas
 
-![notaciones básicas](img_dinamico/notacion_basica.png)
+![notaciones básicas](FacultadPublico/Segundo/POO/Apuntes/img_dinamico/notacion_basica.png)
 
 ## Ejemplo de Diagrama
 
-![ejemplo](img_dinamico/ejemplo.png)
+![ejemplo](FacultadPublico/Segundo/POO/Apuntes/img_dinamico/ejemplo.png)
 
 ## Constructor
 
-![constructor](img_dinamico/constructor.png)
+![constructor](FacultadPublico/Segundo/POO/Apuntes/img_dinamico/constructor.png)
 
 ## Condiciones y Bucles
 
-![bucles y condiciones](img_dinamico/bucles_y_condiciones.png)
+![bucles y condiciones](FacultadPublico/Segundo/POO/Apuntes/img_dinamico/bucles_y_condiciones.png)
 
 ## Métodos de Clase
 
-![métodos de clase](img_dinamico/metodos_de_clase.png)
+![métodos de clase](FacultadPublico/Segundo/POO/Apuntes/img_dinamico/metodos_de_clase.png)
 
 ## Recomendaciones
 

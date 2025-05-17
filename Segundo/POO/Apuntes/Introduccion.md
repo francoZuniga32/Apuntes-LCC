@@ -1,6 +1,6 @@
 # Introduccion
 
-[Inicio](../README.md)
+[Inicio](FacultadPublico/Segundo/POO/README.md)
 
 La programación orientada a objetos (POO) es un paradigma de programación que se basa en el concepto de "objetos". Cada objeto es una instancia de una clase, y las clases son plantillas para crear objetos.
 

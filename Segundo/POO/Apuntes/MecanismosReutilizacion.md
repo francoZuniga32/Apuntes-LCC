@@ -1,6 +1,6 @@
 # Herencia vs Colaborador Interno
 
-[Inicio](../README.md)
+[Inicio](FacultadPublico/Segundo/POO/README.md)
 
 ## Herencia
 
