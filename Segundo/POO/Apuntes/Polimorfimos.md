@@ -14,7 +14,7 @@ ahora estamos repitiendo el codigo (metodos getNombre y getDni ) y atributos (no
 
 Objetos de diferentes clases entienden los mismos mensajes o entienden un conjunto de mensajes. Las respuestas a estos mensajes pueden variar y es la idea del uso del polimorfismo. Vamos a trabajar el polimorfismo en la herencia ya que evitamos errores de objetos del conjunto no tengan un mensaje definido.
 
-![polimorfismo](FacultadPublico/Segundo/POO/Apuntes/img_herencia/polimorfismo_1.png)
+![polimorfismo](img_herencia/polimorfismo_1.png)
 
 Ahora el mensaje `getNombre()` es polimorfico y cambia cuando es un Estudiante o un Profesor.
 
@@ -29,13 +29,13 @@ El mensaje heredado es remplazado en las subclases. El ejemplo anterior es una m
 El mensaje heredado es modificado en las sublcases. se suele hacer `super mensajePadre()` para luego aplicar un refinamiento.
 podemos modificar el mensaje `getNombre()`.
 
-![polimorfismo refinamiento](FacultadPublico/Segundo/POO/Apuntes/img_herencia/polimorfismo_2.png)
+![polimorfismo refinamiento](img_herencia/polimorfismo_2.png)
 
 ### Puro
 
 En este caso un el mensaje polirfico es hereado pero se modifica alguna clase auxiliar que use dicho metodo para cambiar el comportamiento del metodo heredado.
 
-![polimorfismo puro](FacultadPublico/Segundo/POO/Apuntes/img_herencia/polimorfismo_3.png)
+![polimorfismo puro](img_herencia/polimorfismo_3.png)
 
 En este caso el cambio en el metodo `getNombre()` en las subclases cambiara el comportamiento del toString heredado.
 
