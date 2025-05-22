@@ -1,6 +1,6 @@
 # Modelos
 
-[Inicio](FacultadPublico/Segundo/POO/README.md)
+[Inicio](../README.md)
 
 Necesitamos una forma de modelar las interacciones entre objetos que no sea con dibujitos, para esto usaremos UML.
 
@@ -17,11 +17,11 @@ Este modelo indica los objetos, sus atributos, sus mensajes, el nivel de acceso 
    2. **Composición:** La clase A se compone de objetos de la Clase B, y los objetos de la clase B no pueden existir sin A.
    3. **Agregación:** La clase A se compone de objetos de la clase B, pero los objetos de la clase B pueden existir sin A.
 
-![tipo de relaciones](FacultadPublico/Segundo/POO/Apuntes/img_modelos/tiposderelacion.png)
+![tipo de relaciones](img_modelos/tiposderelacion.png)
 
 4. **Cardinalidad:** Define con cuántos objetos participan en la relación.
    - uno-uno: un objeto A puede tener como máximo un objeto B, y un objeto B solo puede estar en una relación con A.
    - uno-muchos: un objeto A puede tener muchos objetos B (una colección), y un objeto B puede estar en una relación con A.
    - muchos-muchos: un objeto A puede tener muchos objetos B (una colección), y un objeto B puede estar en más de una relación con A.
 
-![cardinalidad de relaciones](FacultadPublico/Segundo/POO/Apuntes/img_modelos/cardinalidad.png)
+![cardinalidad de relaciones](img_modelos/cardinalidad.png)
